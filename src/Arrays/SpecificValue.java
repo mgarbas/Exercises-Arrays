@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class SpecificValue {
 
+    // The program checks if an entered value is a part of a array
+
     public static void main(String[] args) {
 
         int[] tab = {23,1,54,2,76,2,45,88,22,13,5,87,103,34,75,321};
