@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51ee9bc-73f0-4623-a1f7-e5dbc341a347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DuplicateEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/DuplicateStringEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/InsertIntoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/MinMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/ArrayToList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CommonInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/CommonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/RemoveDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SecondLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/SecondSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises-Arrays/Arrays/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises-Arrays/Arrays/SpecificValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises-Arrays/Arrays/SpecificValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/SpecificValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/SpecificValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Exercises-Arrays/Arrays/GridArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises-Arrays/Arrays/GridArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/GridArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/GridArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +25,18 @@
     <session id="1170863200">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,7 +46,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="31" />
+          <entry key="JAVA" value="80" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,27 +57,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5170" />
+          <entry key="JAVA" value="8451" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateStringEntry.java">
+        <entry file="file://$PROJECT_DIR$/src/Arrays/ArrayToList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#229#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,7 +96,6 @@
         <option value="$PROJECT_DIR$/src/src/Arrays/ArraySort.java" />
         <option value="$PROJECT_DIR$/src/Arrays/SumArray.java" />
         <option value="$PROJECT_DIR$/src/Arrays/SortArray.java" />
-        <option value="$PROJECT_DIR$/src/Arrays/GridArray.java" />
         <option value="$PROJECT_DIR$/src/Arrays/AverageArray.java" />
         <option value="$PROJECT_DIR$/src/Arrays/FindIndex.java" />
         <option value="$PROJECT_DIR$/src/Arrays/CopyArray.java" />
@@ -99,10 +104,19 @@
         <option value="$PROJECT_DIR$/src/Arrays/RemoveElement.java" />
         <option value="$PROJECT_DIR$/src/Arrays/InsertIntoArray.java" />
         <option value="$PROJECT_DIR$/src/Arrays/MinMax.java" />
-        <option value="$PROJECT_DIR$/src/Arrays/Main.java" />
         <option value="$PROJECT_DIR$/src/Arrays/ReverseArray.java" />
         <option value="$PROJECT_DIR$/src/Arrays/DuplicateEntry.java" />
         <option value="$PROJECT_DIR$/src/Arrays/DuplicateStringEntry.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Arrays/GridArray.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/CommonString.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/CommonInt.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/Main.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/RemoveDuplicate.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/SecondLargest.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/SecondSmallest.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/AddMatrices.java" />
+        <option value="$PROJECT_DIR$/src/Arrays/ArrayToList.java" />
       </list>
     </option>
   </component>
@@ -112,9 +126,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="83" />
-    <option name="y" value="27" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="581" />
+    <option name="y" value="40" />
     <option name="width" value="1062" />
     <option name="height" value="1040" />
   </component>
@@ -126,8 +140,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +173,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551484035563" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556673612477" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java_libs/commons-lang3-3.8.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -179,9 +193,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DuplicateStringEntry">
-    <configuration name="DuplicateEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.DuplicateEntry" />
+  <component name="RunManager" selected="Application.ArrayToList">
+    <configuration name="AddMatrices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.AddMatrices" />
       <module name="Exercises-Arrays" />
       <extension name="coverage">
         <pattern>
@@ -193,8 +207,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateStringEntry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.DuplicateStringEntry" />
+    <configuration name="ArrayToList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.ArrayToList" />
       <module name="Exercises-Arrays" />
       <extension name="coverage">
         <pattern>
@@ -206,8 +220,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertIntoArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.InsertIntoArray" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.RemoveElement" />
       <module name="Exercises-Arrays" />
       <extension name="coverage">
         <pattern>
@@ -219,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.MinMax" />
+    <configuration name="SecondLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SecondLargest" />
       <module name="Exercises-Arrays" />
       <extension name="coverage">
         <pattern>
@@ -232,8 +246,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.ReverseArray" />
+    <configuration name="SecondSmallest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.SecondSmallest" />
       <module name="Exercises-Arrays" />
       <extension name="coverage">
         <pattern>
@@ -246,19 +260,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertIntoArray" />
-      <item itemvalue="Application.MinMax" />
-      <item itemvalue="Application.ReverseArray" />
-      <item itemvalue="Application.DuplicateEntry" />
-      <item itemvalue="Application.DuplicateStringEntry" />
+      <item itemvalue="Application.SecondLargest" />
+      <item itemvalue="Application.SecondSmallest" />
+      <item itemvalue="Application.RemoveElement" />
+      <item itemvalue="Application.AddMatrices" />
+      <item itemvalue="Application.ArrayToList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateStringEntry" />
-        <item itemvalue="Application.DuplicateEntry" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.MinMax" />
-        <item itemvalue="Application.InsertIntoArray" />
+        <item itemvalue="Application.ArrayToList" />
+        <item itemvalue="Application.AddMatrices" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.SecondSmallest" />
+        <item itemvalue="Application.SecondLargest" />
       </list>
     </recent_temporary>
   </component>
@@ -275,18 +289,25 @@
       <workItem from="1551133174182" duration="5045000" />
       <workItem from="1551215305749" duration="9000" />
       <workItem from="1551215367762" duration="7068000" />
-      <workItem from="1551473672554" duration="8317000" />
+      <workItem from="1551473672554" duration="8727000" />
+      <workItem from="1551523419550" duration="1329000" />
+      <workItem from="1551533442180" duration="136000" />
+      <workItem from="1551625689791" duration="88000" />
+      <workItem from="1552235357361" duration="1714000" />
+      <workItem from="1552407613875" duration="2401000" />
+      <workItem from="1552490300312" duration="3414000" />
+      <workItem from="1556573963547" duration="7519000" />
+      <workItem from="1556667698256" duration="5715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20439000" />
+    <option name="totallyTimeSpent" value="43165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="27" width="1062" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24212599" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15052573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2956044" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29513514" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -304,7 +325,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32756758" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,13 +345,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/src/Arrays/ArraySort.java" />
-    <entry file="file://$PROJECT_DIR$/src/Arrays/SortArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Arrays/SumArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -338,17 +352,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/GridArray.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+        <state relative-caret-position="730">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/SpecificValue.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/InsertIntoArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/SortArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -366,54 +387,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/CopyArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/InsertIntoArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/MinMax.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/GridArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/ReverseArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/SpecificValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -424,17 +408,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/CopyArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/ReverseArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateStringEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/CommonString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateStringEntry.java">
+    <entry file="file://$PROJECT_DIR$/src/Arrays/CommonInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/DuplicateEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveDuplicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/SecondLargest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/SecondSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/RemoveElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/MinMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/AddMatrices.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays/ArrayToList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#229#237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
