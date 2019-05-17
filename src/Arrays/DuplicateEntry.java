@@ -12,7 +12,7 @@ public class DuplicateEntry {
 
         for (int i=0;i<tab.length-1;i++){
             for (int j=i+1;j<tab.length;j++) {
-                if ((tab[i] == tab[j]) && (i !=j)) {
+                if (tab[i] == tab[j]){
                     System.out.println("The duplicated value is: " + tab[j]);
                 }
             }

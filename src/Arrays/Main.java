@@ -8,17 +8,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] tab = {1,2,32,11,56,32,86,234,765};
+        int[][] tab = {{1,0,65,1,0,48,0,64,0,147},{2,4,5,3,2,6,4,2}};
 
         for (int i=0;i<tab.length;i++) {
-            for (int j=0;j<tab.length-1;j++) {
-                if (tab[j] > tab[j+1]) {
-                    int temp = tab[j];
-                    tab[j] = tab[j+1];
-                    tab[j+1] = temp;
-                    System.out.println(tab[j]);
-                }
-            }
+            for (int j = 0; j < tab[i].length; j++)
+
+
+                System.out.print(tab[i][j]+" ");
         }
+
+
     }
 }
